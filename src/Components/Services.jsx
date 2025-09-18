@@ -1,11 +1,13 @@
 // src/components/Services.jsx
 import React from "react";
-
+import one from '../assets/one.jpg'
+import two from '../assets/two.png'
+import three from '../assets/three.png'
 const Services = () => {
   const images = [
-    "http://hmehdi.com/demos/faucets/images/service/1.jpg",
-    "http://hmehdi.com/demos/faucets/images/service/2.jpg",
-    "http://hmehdi.com/demos/faucets/images/service/3.jpg",
+    one,
+    two,
+    three,
   ];
 
   return (

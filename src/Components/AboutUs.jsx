@@ -1,5 +1,5 @@
 import React from "react";
-
+import about from '../assets/about.png'
 const AboutUs = () => {
   return (
     <section className="bg-white py-16">
@@ -40,7 +40,7 @@ const AboutUs = () => {
         {/* Right Column - Image */}
         <div className="flex justify-center">
           <img
-            src="http://hmehdi.com/demos/faucets/images/about/about.png"
+            src={about}
             alt="About Us"
             className="w-full max-w-sm object-cover"
           />

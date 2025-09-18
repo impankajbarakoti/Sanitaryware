@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import logo from '../assets/logo.png'
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -35,7 +35,7 @@ const Navbar = () => {
       <div className="flex items-center">
         <a href="/">
           <img
-            src="http://hmehdi.com/demos/faucets/images/logo.png"
+            src={logo}
             alt="Logo"
             className="w-36 md:w-40"
           />

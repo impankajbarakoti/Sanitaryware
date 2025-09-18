@@ -1,12 +1,12 @@
 import React from "react";
-
+import titlebg from '../assets/titlebg.jpg' 
 const AboutHero = () => {
   return (
     <div
       className="bg-cover bg-center bg-no-repeat h-[300px] flex items-center"
       style={{
         backgroundImage:
-          "url('http://hmehdi.com/demos/faucets/images/bg/title-bg.jpg')", 
+          `url(${titlebg})`, 
       }}
     >
       <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center w-full text-white">
