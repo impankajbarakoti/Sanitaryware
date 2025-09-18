@@ -1,15 +1,22 @@
 // src/components/SpecialProduct.jsx
 import React from "react";
-
+import pro1 from '../assets/pro1.jpg'
+import pro2 from '../assets/pro2.jpg'
+import pro3 from '../assets/pro3.jpg'
+import pro4 from '../assets/pro4.jpg'
+import pro5 from '../assets/pro5.jpg'
+import pro6 from '../assets/pro6.jpg'
+import pro7 from '../assets/pro7.jpg'
+import pro8 from '../assets/pro8.jpg'
 const images = [
-  "http://hmehdi.com/demos/faucets/images/product/1.jpg", // faucet
-  "http://hmehdi.com/demos/faucets/images/product/2.jpg", // bathroom
-  "http://hmehdi.com/demos/faucets/images/product/3.jpg", // towels
-  "http://hmehdi.com/demos/faucets/images/product/4.jpg", // bathtub
-  "http://hmehdi.com/demos/faucets/images/product/5.jpg", // dark tiles
-  "http://hmehdi.com/demos/faucets/images/product/6.jpg", // sink
-  "http://hmehdi.com/demos/faucets/images/product/7.jpg", // soap dispenser
-  "http://hmehdi.com/demos/faucets/images/product/8.jpg", // headphones on pipe
+  pro1, // faucet
+  pro2, // bathroom
+ pro3, // towels
+ pro4, // bathtub
+  pro5, // dark tiles
+  pro6, // sink
+  pro7, // soap dispenser
+ pro8, // headphones on pipe
 ];
 
 const SpecialProduct = () => {
