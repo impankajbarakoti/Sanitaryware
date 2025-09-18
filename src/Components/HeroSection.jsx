@@ -1,10 +1,10 @@
 
-import Hero from '../assets/Hero.jpg'
+import hero from '../assets/hero.jpg'
 const HeroSection = () => (
   <section
     className="relative w-full min-h-screen flex items-center justify-center"
     style={{
-      backgroundImage: `url(${Hero})`,
+      backgroundImage: `url(${hero})`,
       backgroundSize: "cover",
       backgroundPosition: "center",
       backgroundRepeat: "no-repeat",
