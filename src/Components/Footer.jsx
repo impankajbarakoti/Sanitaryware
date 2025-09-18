@@ -1,3 +1,4 @@
+import logo from '../assets/logo.png' 
 import React from "react";
 import {
   FaTwitter,
@@ -12,7 +13,7 @@ const Footer = () => {
       <div className="container mx-auto text-center">
         {/* Logo Image */}
         <img
-          src="http://hmehdi.com/demos/faucets/images/logo.png"
+          src={logo}
           alt="Faucets Logo"
           className="mx-auto mb-4 w-32"
         />
